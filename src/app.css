@@ -1,0 +1,52 @@
+.single-promotion-container {
+    --content-font-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: url('https://image.s4.sfmc-content.com/lib/fe30117276640474731270/m/1/7a4253b0-1572-4dc4-a7d2-18170a9827c2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    border-radius: 22px;
+}
+
+.title {
+    padding-top: 0.45rem;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+color: var(--content-font-color);
+}
+
+.subtitle {
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: var(--content-font-color);
+}
+
+.c-button {
+--sds-c-button-brand-color-text-disabled: #00A1E0;
+    --sds-c-button-brand-color-background-disabled: #F4F6F9;
+    --sds-c-button-brand-color-border-disabled: transparent;
+--sds-c-button-brand-color-background: #00A1E0;
+--sds-c-button-brand-color-border: transparent;
+--sds-c-button-brand-color-text: #FFF;
+--sds-c-button-brand-color-background-hover: #00A1E0;
+--sds-c-button-brand-color-border-hover: transparent;
+--sds-c-button-brand-color-text-hover: #FFF;
+--sds-c-button-brand-color-background-active: #00A1E0;
+--sds-c-button-brand-color-border-active: transparent;
+--sds-c-button-brand-color-text-active: #FFF;
+--sds-c-button-shadow-focus: none;
+width: 46%;
+padding: 10px 17px;
+border-radius: 4px;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+}
